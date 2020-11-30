@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Borsok';
+    src: url('boorsok.ttf');
+}
+
+@font-face{
+    font-family: 'Monst';
+    src: url("Montserrat-Thin.ttf")
+}
+
+* { 
+     background-color: #EFF9FB;
+     font-family: Borsok, sans-serif;
+    
+}
+
+body{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+   margin: 0;
+}
+
+.pic{
+    width: 330px;
+    margin-top: 6rem;
+}
+
+h1{
+    font-size: 35px;
+    color: #5A3626;
+}
+
+.time_cont{
+    display: flex;
+    border-top: solid #5A3626 2px;
+    border-bottom: solid #5A3626 2px;
+}
+.cont{
+    margin: 30px;
+    width: 120px;
+    height: 160px;
+    background-color: #DB3F3F;
+}
+
+.num{
+    font-family: Monst, sans-serif;
+    font-size: 35px;
+}
+.num, .txt{
+    text-align: center;
+    background-color: #DB3F3F;
+    color: #C9E09C;
+}
